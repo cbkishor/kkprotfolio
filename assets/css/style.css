@@ -1,0 +1,222 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {background: #333;
+
+}
+a:hover { text-decoration: none }
+
+.slider-section{
+    background: rgb(93,36,128);
+background: -moz-linear-gradient(45deg, rgb(93,36,128) 1%, rgb(247,69,84) 100%);
+background: -webkit-linear-gradient(45deg, rgb(93,36,128) 1%,rgb(247,69,84) 100%);
+background: linear-gradient(45deg, rgb(93,36,128) 1%,rgb(247,69,84) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5d2480', endColorstr='#f74554',GradientType=1 );
+}
+
+.mainmenu-area ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu-area ul li {
+  display: inline-block;
+}
+.mainmenu-area li a {
+  display: inline-block;
+  text-transform: uppercase;
+  color: #333;
+  padding-left: 30px;
+  padding-top: 9px;
+  color: #fff;
+}
+.mainmenu-area li a:hover{
+    color: #0074E8;
+}
+.side-logo {
+  text-transform: uppercase;
+  display: block;
+  font-size: 32px;
+  color:#fff;
+}
+/*...................................Slider-Area Start.................................*/
+
+.my-contenttablecell img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+.mycontent {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding: 120px 0px 50px;
+}
+.my-contenttablecell {
+  display: table-cell;
+  vertical-align: middle;
+  color: #fff;
+}
+html,body {
+  height: 100%;
+}
+
+.my-contenttablecell h5,h6 {
+  margin: 0;
+}
+.social-icons a {
+  display: inline-block;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  border: 1px solid;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 32px;
+}
+.social-icons {
+  margin-top: 10px;
+}
+.slider-section {
+  position: relative;
+}
+.header-area {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+/*...................................Slider-Area End.................................*/
+/*....................................About -Sec-Start...............................*/
+.section-padding{
+    background-image: url(../img/bg.jpg);
+}
+.side-image{background-image: url(../img/side.jpg);}
+
+
+.section-padding {
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+  color: #fff;
+  position: relative;
+}
+
+
+.side-image {
+  height: 300px;
+  background-size: cover;
+  background-position: center top;
+  background-color: #ddd;
+  width: 100%;
+}
+.section-padding:before {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background: #333;
+  opacity: .5;
+}
+.section-title h2 {
+  position: relative;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.section-title h2:before {
+  position: absolute;
+  content: "";
+  background: #fff;
+  width: 90px;
+  height: 2px;
+  left: 50%;
+  margin-left: -45px;
+  bottom: 0;
+}
+.section-title h2::after {
+  position: absolute;
+  content: "";
+  width: 15px;
+  height: 15px;
+  border: 2px solid;
+  left: 50%;
+  bottom: 0;
+  margin-bottom: -7.5px;
+  border-radius: 50%;
+  margin-left: -7.5px;
+  background: #fff;
+}
+.section-title {
+  margin-bottom: 40px;
+  padding-top: 75px;
+  color: #fff;
+}
+.about-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.my-details {
+  padding: 40px;
+  line-height: 2.2;
+}
+
+.footer-area {
+  background: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+.footer-social-icons a {
+  display: inline-block;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  font-size: 17px;
+  text-align: center;
+  border-radius: 50%;
+}
+/*....................................About -Sec-End...............................*/
+
+/*...........................My-Wroks Sections Start..............................*/
+
+.my-time-spend table {
+  border: 1px solid;
+}
+.my-time-spend tr {
+  border-bottom: 1px solid;
+}
+
+.my-time-spend {
+  padding-bottom: 30px;
+}
+.footer-social-icons a:hover, .social-icons a:hover {
+  background: #1AA260;
+  border-color:#1AA260;
+}
+/*...........................My-Wroks Sections End..............................*/
